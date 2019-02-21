@@ -4,15 +4,16 @@ localhost_development:
   backend:
     name: file-system
     api_root: /api
+  display_url: http://localhost:8000
 
 backend:
   name: github
-  repo: damassi/gatsby-typescript-netlify-starter
+  repo: erikdstock/gatsby-typescript-netlify-starter
   branch: master
 
-display_url: http://localhost:8000
 media_folder: static/assets
 public_folder: assets
+site_url: https://cocky-turing-9bc2a6.netlify.com
 
 collections:
   - name: mdx
