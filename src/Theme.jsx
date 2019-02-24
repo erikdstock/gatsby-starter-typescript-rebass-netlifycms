@@ -9,16 +9,29 @@ import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 import { Button } from "rebass"
 
 export const theme = {
-  // TODO: https://rebassjs.org/theming
+  colors: {
+    red: "#ec1f27",
+    white: "#ffffff",
+    black: "#231f20",
+    darkGrey: "#222222",
+    lightGrey: "#a8a8a8",
+    mediumGrey: "#666",
+  },
+  fonts: {
+    serif: "Karma, serif",
+    sans: "Lato, sans-serif",
+    mono: "Fira Mono, monospace",
+  },
 }
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Karma:400,700|Lato:400,700');
   html, body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
   }
 
   h3 {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Lato, Helvetica, sans-serif
   }
 `
 

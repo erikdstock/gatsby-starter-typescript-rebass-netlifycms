@@ -8,12 +8,12 @@ localhost_development:
 
 backend:
   name: github
-  repo: erikdstock/gatsby-typescript-netlify-starter # change
+  repo: erikdstock/eriks-dotcom # change
   branch: master
 
 media_folder: static/assets
 public_folder: assets
-site_url: https://cocky-turing-9bc2a6.netlify.com
+site_url: https://erik.netlify.com
 
 collections:
   - name: mdx
